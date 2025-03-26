@@ -19,7 +19,7 @@ def get_text(url):
 REJECT_URL = ("https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt",
              "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt")
 PROXY_URL = ('https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/gfw.txt',
-             'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule//QuantumultX/Proxy/Proxy.list',
+             'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Proxy/Proxy.list',
              'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Netflix/Netflix.list',
              'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AppleTV/AppleTV.list',
              'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list',
