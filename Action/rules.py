@@ -43,8 +43,9 @@ DIRECT_URL = ('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ma
               'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/DouYin/DouYin.list',
               'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/ByteDance/ByteDance.list'
              )
-reject_set = set([i for i in get_text(REJECT_URL[0]).split("\n") if not ((len(i) == 0) or i.startswith('#') or i.startswith('!'))])
-reject_set.update([i[2:-1] for i in get_text(REJECT_URL[1]).split("\n") if (i.startswith('||') and i.endswith('^') and ( not ('*' in i)))])
+
+reject_set = set([i for i in get_text(REJECT_URL[0]).split("\n") if not ((len(i) == 0) or i.startswith('#') or i.startswith('!') or i.endswith('.'))])
+reject_set.update([i[2:-1] for i in get_text(REJECT_URL[1]).split("\n") if (i.startswith('||') and i.endswith('^') and ( not ('*' in i)) and (not i.endswith('.')))])
 
 qx_set = set()
 j = ''
