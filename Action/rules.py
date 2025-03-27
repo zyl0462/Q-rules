@@ -74,7 +74,7 @@ for item in PROXY_URL[1]:
 j = ''
 for i in tmp_set:
     tmp = i.split(",")
-    j = tmp[0] + tmp[1] + ',proxy'
+    j = tmp[0] + ',' + tmp[1] + ',proxy'
     proxy_set.add(j)
 tmp_set.clear()
 LEN_proxy = len(proxy_set)
@@ -89,7 +89,7 @@ for item in DIRECT_URL:
 j = ''
 for i in tmp_set:
     tmp = i.split(",")
-    j = tmp[0] + tmp[1] + ',direct'
+    j = tmp[0] + ',' + tmp[1] + ',direct'
     direct_set.add(j)
 tmp_set.clear()
 LEN_direct = len(direct_set)
