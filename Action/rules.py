@@ -85,7 +85,7 @@ del proxy_set,proxy_text
 
 direct_set = set()
 for item in DIRECT_URL:
-    tmp_set_set.update([i for i in get_text(item).split("\n") if not ((len(i) == 0) or i.startswith('#'))])
+    tmp_set.update([i for i in get_text(item).split("\n") if not ((len(i) == 0) or i.startswith('#'))])
 j = ''
 for i in tmp_set:
     tmp = i.split(",")
