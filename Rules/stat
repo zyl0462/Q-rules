@@ -1,6 +1,6 @@
-#2026/02/17 21:10:52(UTC/GMT+08:00)
-reject rules(183949+130): 184079
-proxy-domain rules(7310+0): 7310
-proxy rules(9571+0): 9571
+#2026/02/18 10:31:50(UTC/GMT+08:00)
+reject rules(184079+138): 184217
+proxy-domain rules(7310-35): 7275
+proxy rules(9571-31): 9540
 direct rules(3878+0): 3878
-total rules(204708+130): 204838
+total rules(204838+72): 204910
